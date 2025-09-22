@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script href="js/script.js"></script>
+    <title>Casatro de usuário</title>
+</head>
+<body>
+    <section>
+        <h2>Cadastro de usuário!</h2>
+        <form name="frmcadastro" method="get" action="#" onsubmit="return validaForm()">
+            <fieldset class="dados-pessoais">
+                <legend>Informações pessoais:</legend>
+
+                <label for="nome">*Nome completo</label>
+                <input type="text" name="txtnome" id="nome" placeholder="Ex: Ana Silva">
+
+                <label for="nascimento">*Data de nascimento</label>
+                <input type="text" name="txtnascimento" id="nascimento" placeholder="12/34/5678">
+
+                <label for="cpf">*CPF</label>
+                <input type="text" name="txtcpf" id="cpf" placeholder="123.456.789.00">
+
+                <label class="genero-label">*Gênero</label>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
